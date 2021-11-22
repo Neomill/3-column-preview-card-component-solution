@@ -1,0 +1,72 @@
+.stack{
+    width: 87.2%;
+    margin: 5.5rem 0;
+    
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.stack--sedan{
+    background-color: var(--bright-orange);
+}
+
+.stack--suv{
+    background-color: var(--dark-cyan);
+}
+
+.stack--luxury{
+    background-color: var(--very-dark-cyan);
+}
+
+.stack__item{
+    padding: 3rem;
+}
+
+.stack__title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+
+    padding: 2.1875rem 0;
+    color: var(--very-light-gray)
+}
+
+.stack__copy{
+    font-size: 0.9375rem;
+    color: var(--transparent-white);
+    line-height: 24px;
+}
+
+.stack__button{
+    width: 9.125rem;
+
+    padding: 0.75rem 0;
+    margin-top: 1.75rem;
+
+    font-size: 0.9375rem;
+    font-family: inherit;
+    text-transform: capitalize;
+
+    border: 2px solid var(--very-light-gray);
+    border-radius: 25px;
+
+    cursor: pointer;
+    background-color: var(--very-light-gray);
+}
+
+.stack__button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.stack__button--orange{
+    color: var(--bright-orange);
+}
+
+.stack__button--dark-cyan{
+    color: var(--dark-cyan);
+}
+
+.stack__button--very-dark-cyan{
+    color: var(--very-dark-cyan);
+}
